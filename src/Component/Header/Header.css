@@ -2,5 +2,13 @@
     margin: 8px 320px 0px 320px;
     display: flex;
     justify-content: space-between;
+
+}
+
+.logo-search-container{
+ 
+    display: flex;
+    allign-items: center;
+    gap: 89px;
     
 }
