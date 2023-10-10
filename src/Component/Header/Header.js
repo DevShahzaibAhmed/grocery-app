@@ -3,8 +3,14 @@ import "./Header.css";
 
 const Header=()=>{
     return (
-        <div>
-            From Header
+        <div className='header-container'>
+            <div className='logo-search-container'> 
+                <img src="" alt="" />
+                <div>
+                    <input type="text" />
+                    
+                </div>
+            </div>
         </div>
     );
 };
