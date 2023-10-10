@@ -2,13 +2,43 @@
     margin: 8px 320px 0px 320px;
     display: flex;
     justify-content: space-between;
-
 }
 
 .logo-search-container{
- 
     display: flex;
     allign-items: center;
-    gap: 89px;
-    
+    gap: 89px;   
+}
+
+.logo-search-container-img{
+    width: 146px;
+    height: 93px;
+}
+
+.search-cont{
+    width: 414px;
+    height: 41px;
+    background-color: #D3E88B;
+    border-radius: 20.5px;
+    display: flex;
+    align-items: center;
+    padding-left: 16px;
+    color: #706868;
+}
+
+.search-cont-icon{
+    height: 28px;
+    width: 28px;
+    margin-right: 8px;
+}
+
+.search-cont-input{
+    width: 350px;
+    height: 41px;
+    border-radius: 20.5px;
+    background-color: transparent;
+}
+
+.search-cont-input:focus{
+    outline: none;
 }
