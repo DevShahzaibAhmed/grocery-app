@@ -19,21 +19,23 @@ const Header=()=>{
             </div>
 
            <div className='contact-social-container'>
+
                     <div className='contact'>
                         <img src={callIcon} alt="" />
-                    </div>
-                        <p>Call Us <br/> <span>0311-1571185</span></p>
-            <div>
-                    <div> 
-                         <BiUser/>
+                        <p>Call Us <br/> <span>311 1571185</span></p>
                     </div>
 
-                    <div>
-                         <BiHeart/>
+                <div className='social-icon-container'>
+                    <div className='headerIcon'> 
+                         <BiUser className='headerIcon-size'/>
+                    </div>
+
+                    <div className='headerIcon'>
+                         <BiHeart className='headerIcon-size'/>
                     </div>
                     
-                    <div>
-                        <BsCart2/>
+                    <div className='headerIcon'>
+                        <BsCart2 className='headerIcon-size'/>
                     </div>
                 </div>
            </div>
