@@ -22,5 +22,19 @@
     border-radius: 20.5px;
     background-color: #eff400;
     padding: 20px;
-    
+
+}
+
+.burger-menu-icon{
+    width: 31px;
+    height: 31px;
+    color: #aaaaaa;
+}
+
+.navbar ul{
+    display: flex;
+    gap: 54px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #438439;
 }
