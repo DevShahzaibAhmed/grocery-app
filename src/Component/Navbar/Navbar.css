@@ -1,0 +1,26 @@
+.navbar-container{
+    width: 100%;
+    height: 58px;
+    background-color: #c4e454;
+    margin-top: 8px;
+    padding: 0px 320px;
+    display: grid;
+    align-content: center;
+}
+
+.navbar-sub-container{
+    display: flex;
+    align-items: center;
+    gap: 55px;
+}
+
+.burger-menu{
+    width: 313px;
+    height: 41px;
+    display: flex;
+    align-items: center;
+    border-radius: 20.5px;
+    background-color: #eff400;
+    padding: 20px;
+    
+}
