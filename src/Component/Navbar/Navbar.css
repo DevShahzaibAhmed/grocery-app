@@ -45,17 +45,24 @@
     color: #438439;
 }
 
-.anum-nav a{
+.anim-nav a{
     padding: 0 .5em;   
     position: relative;
     text-decoration: none;
     display: inline-block;   
 }
 
-.anum-nav a:before{
+.anim-nav a:before{
     position: absolute;
     content: "";
     -webkit-transition: all 0.35s ease;
     transition: all 0.35s ease;
-
+    opacity: 0;
+    left: 15%;
+    right: 15%;
+    top: 0;
+    bottom: 0;
+    border-left:3px solid #27ae60 ;
+    border-right:3px solid #27ae60 ;
 }
+
