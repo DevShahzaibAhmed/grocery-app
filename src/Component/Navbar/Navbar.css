@@ -66,3 +66,13 @@
     border-right:3px solid #27ae60 ;
 }
 
+.anim-nav a:hover{
+
+    color: white;
+}
+
+.anim-nav a:hover:before{
+    opacity:1;
+    left: 0;
+    right: 0;
+}
