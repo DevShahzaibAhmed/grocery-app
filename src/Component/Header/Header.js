@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../../public/assets/logo.png";
-import callIcon from "../assets/call icon.svg";
+import callIcon from "../../../public/assets/call icon.svg";
 import { BiSearchAlt, BiUser, BiHeart } from "react-icons/bi";
 import { BsCart2 } from "react-icons/bs";
 
